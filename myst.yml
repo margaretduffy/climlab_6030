@@ -81,12 +81,6 @@ project:
 
   toc:
     - file: index.md
-    - file: preamble.md
-      children:
-        - file: who-for.md
-        - file: how-to.md
-        - file: attribution.md
-        - file: sequences.md
     - file: lectures.md
       children:
         - file: courseware_6030/unit_0/unit_0.ipynb
