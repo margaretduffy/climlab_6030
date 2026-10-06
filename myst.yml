@@ -1,7 +1,7 @@
 version: 1
 extends: authors.yml
 project:
-  title: The Climate Laboratory
+  title: The Climate Laboratory for ATMOS 6030
   authors: brian-rose
   doi: https://doi.org/10.5281/zenodo.4265097
   github: brian-rose/ClimateLaboratoryBook
