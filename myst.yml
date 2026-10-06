@@ -89,6 +89,11 @@ project:
         - file: sequences.md
     - file: lectures.md
       children:
+        - file: courseware_6030/unit_0/unit_0.ipynb
+          children:
+            - file: courseware_6030/unit_0/climate-data-primer.ipynb
+            - file: courseware_6030/unit_0/climate-system-models.ipynb
+            - file: courseware_6030/unit_0/introducing-cesm.ipynb
         - file: courseware/models-budgets-fun.ipynb
         - file: courseware/zero-dim-ebm.ipynb
           children:
