@@ -7,3 +7,4 @@ _build/
 .ipynb_checkpoints/
 howto_openclimlab_on_localhost_mld
 myst_orig.yml
+courseware_6030/data/ts_Amon_CESM2_historical_r1i1p1f1_gn_185001-201412.nc
