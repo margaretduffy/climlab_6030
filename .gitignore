@@ -5,3 +5,5 @@ content/*/.ipynb_checkpoints/*
 *.pyc
 _build/
 .ipynb_checkpoints/
+howto_openclimlab_on_localhost_mld
+myst_orig.yml
