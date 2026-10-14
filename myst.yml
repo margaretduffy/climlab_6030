@@ -89,6 +89,14 @@ project:
             - file: courseware_6030/unit_0/climate-data-primer.ipynb
             - file: courseware_6030/unit_0/climate-system-models.ipynb
             - file: courseware_6030/unit_0/introducing-cesm.ipynb
+        - file: courseware_6030/unit_1/unit_1.ipynb
+          children:
+            - file: courseware_6030/unit_1/models-budgets-fun.ipynb
+            - file: courseware_6030/unit_1/zero-dim-ebm.ipynb
+            - file: courseware_6030/unit_1/climlab-intro.ipynb
+            - file: courseware_6030/unit_1/radiation.ipynb
+            - file: courseware_6030/unit_1/elementary-greenhouse.ipynb
+            - file: courseware_6030/unit_1/grey-radiation-climlab.ipynb
         - file: courseware/models-budgets-fun.ipynb
         - file: courseware/zero-dim-ebm.ipynb
           children:
