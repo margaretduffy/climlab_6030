@@ -97,53 +97,39 @@ project:
             - file: courseware_6030/unit_1/radiation.ipynb
             - file: courseware_6030/unit_1/elementary-greenhouse.ipynb
             - file: courseware_6030/unit_1/grey-radiation-climlab.ipynb
-        - file: courseware/models-budgets-fun.ipynb
-        - file: courseware/zero-dim-ebm.ipynb
+        - file: courseware_6030/unit_2/unit_2.ipynb
           children:
-            - file: courseware/analytical-efolding.ipynb
-        - file: courseware/climate-system-models.ipynb
-        - file: courseware/introducing-cesm.ipynb
-        - file: courseware/climlab-intro.ipynb
-        - file: courseware/radiation.ipynb
-        - file: courseware/elementary-greenhouse.ipynb
+            - file: courseware_6030/unit_2/radeq.ipynb
+            - file: courseware_6030/unit_2/rce.ipynb
+        - file: courseware_6030/unit_3/unit_3.ipynb
           children:
-            - file: courseware/sympy-greenhouse.ipynb
-        - file: courseware/grey-radiation-climlab.ipynb
-        - file: courseware/radiative-transfer.ipynb
-        - file: courseware/spectral-bands.ipynb
-        - file: courseware/radeq.ipynb
-        - file: courseware/rce.ipynb
-        - file: courseware/sensitivity-feedback.ipynb
+            - file: courseware_6030/unit_3/heat-transport.ipynb
+            - file: courseware_6030/unit_3/one-dim-ebm.ipynb
+            - file: courseware_6030/unit_3/seasonal-cycle.ipynb
+            - file: courseware_6030/unit_3/numerical-diffusion.ipynb
+        - file: courseware_6030/unit_4/unit_4.ipynb
+        - file: courseware_6030/unit_5/unit_5.ipynb
           children:
-            - file: courseware/advanced-sensitivity-feedback.ipynb
-        - file: courseware/transient-cesm.ipynb
-        - file: courseware/transient-toy.ipynb
-        - file: courseware/clouds.ipynb
-        - file: courseware/insolation.ipynb
-        - file: courseware/orbital.ipynb
-        - file: courseware/heat-transport.ipynb
-          children:
-            - file: courseware/advanced-heat-transport.ipynb
-        - file: courseware/one-dim-ebm.ipynb
-        - file: courseware/seasonal-cycle.ipynb
-        - file: courseware/numerical-diffusion.ipynb
-        - file: courseware/albedo-snowball.ipynb
-          children:
-            - file: courseware/advanced-albedo-feedback.ipynb
-            - file: courseware/advanced-snowball-earth.ipynb
-        - file: courseware/surface-energy-balance.ipynb
-        - file: courseware/land-ocean-contrast.ipynb
-        - file: courseware/water-water-everywhere.ipynb
+            - file: courseware_6030/unit_5/insolation.ipynb
+            - file: courseware_6030/unit_5/orbital.ipynb
+            - file: courseware_6030/unit_5/albedo-snowball.ipynb
+            - file: courseware_6030/unit_5/sensitivity-feedback.ipynb
+            - file: courseware_6030/unit_5/transient-cesm.ipynb
+            - file: courseware_6030/unit_5/transient-toy.ipynb
+        - file: courseware_6030/extra_lectures
+            - file: courseware_6030/extra_lectures/analytical-efolding.ipynb
+            - file: courseware_6030/extra_lectures/sympy-greenhouse.ipynb
+            - file: courseware_6030/extra_lectures/radiative-transfer.ipynb
+            - file: courseware_6030/extra_lectures/spectral-bands.ipynb
+            - file: courseware_6030/extra_lectures/advanced-sensitivity-feedback.ipynb
+            - file: courseware_6030/extra_lectures/clouds.ipynb
+            - file: courseware_6030/extra_lectures/advanced-heat-transport.ipynb
+            - file: courseware_6030/extra_lectures/advanced-albedo-feedback.ipynb
+            - file: courseware_6030/extra_lectures/advanced-snowball-earth.ipynb
+            - file: courseware_6030/extra_lectures/surface-energy-balance.ipynb
+            - file: courseware_6030/extra_lectures/land-ocean-contrast.ipynb
+            - file: courseware_6030/extra_lectures/water-water-everywhere.ipynb
     - file: about-assignments.md
-      children:
-        - file: courseware/assignment-zero-dim-ebm.ipynb
-        - file: courseware/assignment-cesm-control.ipynb
-          children:
-            - file: courseware/assignment-cesm-control-hints.ipynb
-        - file: courseware/assignment-simple-clouds.ipynb
-        - file: courseware/assignment-rcm-feedback.ipynb
-        - file: courseware/assignment-cesm-climate-change.ipynb
-        - file: courseware/assignment-insolation-orbit.ipynb
     - file: glossary.md
     - file: references.md
 
