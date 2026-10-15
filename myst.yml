@@ -117,7 +117,7 @@ project:
             - file: courseware_6030/unit_5/transient-cesm.ipynb
             - file: courseware_6030/unit_5/transient-toy.ipynb
         - file: courseware_6030/extra_lectures
-            children:
+          children:
             - file: courseware_6030/extra_lectures/analytical-efolding.ipynb
             - file: courseware_6030/extra_lectures/sympy-greenhouse.ipynb
             - file: courseware_6030/extra_lectures/radiative-transfer.ipynb
